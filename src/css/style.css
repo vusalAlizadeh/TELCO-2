@@ -682,7 +682,10 @@ footer .line {
   line-height: 150%;
   /* 22.5px */
 }
-
+#AboutHome .allText .left a:hover {
+  background-color: #48a2ffa8;
+  color: #fff;
+}
 #AboutHome .allText .right {
   position: absolute;
   top: 394px;
