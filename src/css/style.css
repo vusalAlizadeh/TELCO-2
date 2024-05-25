@@ -241,6 +241,7 @@ footer .footerinfo .footermenu .homemenu {
   flex-direction: column;
   align-items: flex-start;
   gap: 22px;
+  width: 119px;
 }
 
 footer .footerinfo .footermenu .homemenu a {
@@ -345,6 +346,7 @@ footer .footerinfo .footermenu .button {
   align-items: center;
   gap: 10px;
   background: #001a42;
+  width: 156px;
 }
 
 footer .copyright {
@@ -1810,7 +1812,9 @@ footer .line {
 
 #ContactHead .overlay form .submitbutton {
   display: flex;
-  width: 120px;
+  /* width: 120px; */
+  width: auto;
+
   height: 44px;
   padding: 10px 30px;
   justify-content: center;
@@ -1828,6 +1832,10 @@ footer .line {
   border: none;
   cursor: pointer;
   /* 22.5px */
+}
+#ContactHead .overlay form .submitbutton:hover {
+  background-color: #48a2ffa8;
+  color: #fff;
 }
 
 #ContactHead .overlay .contactInfos {
