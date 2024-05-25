@@ -1618,7 +1618,7 @@ footer .line {
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
-  border: 1px solid black;
+
   /* 180px */
 }
 
@@ -1634,7 +1634,7 @@ footer .line {
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
-  border: 1px solid red;
+
   /* 100px */
 }
 
