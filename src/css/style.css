@@ -348,6 +348,10 @@ footer .footerinfo .footermenu .button {
   background: #001a42;
   width: 156px;
 }
+footer .footerinfo .footermenu .button:hover {
+  background-color: #defa39;
+  color: #000;
+}
 
 footer .copyright {
   position: absolute;
